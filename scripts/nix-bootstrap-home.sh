@@ -6,7 +6,7 @@
 mkdir -p ~/nix-boot
 cd ~/nix-boot
 
-VERSION=1.6.1
+VERSION=1.11.2
 
 if [ ! -e nix-$VERSION.tar.xz ] ; then
 wget http://nixos.org/releases/nix/nix-$VERSION/nix-$VERSION.tar.xz
